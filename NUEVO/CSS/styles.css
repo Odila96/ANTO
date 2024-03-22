@@ -109,8 +109,7 @@ body {
 
 }
 
-
-.subtitle{
+.subtitle {
     color: #070505;
 }
 
@@ -144,15 +143,41 @@ body {
 }
 
 
-/* .slider__images .slider__img: :first-child, .slider__images .slider__img: :last-child {
+ .slider__images .slider__img:first-child, .slider__images .slider__img:last-child { 
     height: 480px;
 }
 
-.slider__images .slider__img: :nth-child(2), .slider__images .slider__img: :nth-child(3) {
+.slider__images .slider__img:nth-child(2), .slider__images .slider__img:nth-child(5) {
     height: 560px;
     
-} */
+} 
 
+.slider__images .slider__img:nth-child(3), .slider__images .slider__img:nth-child(4) {
+    height: 665px;
+    
+} 
+
+.slider__container h1{
+   font-family: "Poppins", sans-serif;
+   font-size: 2em;
+   text-align: left;
+   text-transform: uppercase;
+   color: #030303f5;
+   position: absolute;
+   top: 50%;
+   left: -10%;
+   transform: rotate(270deg);
+   transition: 0.7s ease;
+}
+
+.slider__img.active {
+    width: 760px !important;
+    height: 750px !important;
+}
+
+.slider__img.active h1{
+    display: none;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap')
 

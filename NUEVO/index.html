@@ -56,7 +56,7 @@
                     <img src="./images/WhatsApp Image 2023-05-10 at 13.56.59.jpg" alt="2">
                     <h1>Red Hot Chilli Peppers</h1>
                 </div>
-                <div class="slider__img">
+                <div class="slider__img active">
                     <img src="./images/WhatsApp Image 2023-05-10 at 13.56.57 (1).jpeg" alt="3">
                     <h1>Nasa</h1>
                 </div>
@@ -75,6 +75,17 @@
             </div>
 
         </section>
+
+    <script src="js/jQuery.js"></script>
+    <script> 
+    jQuery(document).ready(function($){
+        $('.slider__img').on('click', function(){
+            $('.slider__img').removeClass('active');
+            $(this).addClass('active');
+
+        })
+    })
+    </script>
     </main>
 </body>
 </html>
