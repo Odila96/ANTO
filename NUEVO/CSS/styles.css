@@ -109,8 +109,11 @@ body {
 
 }
 
+
+
 .subtitle {
     color: #070505;
+
 }
 
 .slider__container{
@@ -147,17 +150,17 @@ body {
     height: 480px;
 }
 
-.slider__images .slider__img:nth-child(2), .slider__images .slider__img:nth-child(5) {
+.slider__images .slider__img:nth-child(2), .slider__images .slider__img:nth-child(6) {
     height: 560px;
     
 } 
 
-.slider__images .slider__img:nth-child(3), .slider__images .slider__img:nth-child(4) {
+.slider__images .slider__img:nth-child(3), .slider__images .slider__img:nth-child(4), .slider__images .slider__img:nth-child(5) {
     height: 665px;
     
 } 
 
-.slider__container h1{
+/* .slider__container h1{
    font-family: "Poppins", sans-serif;
    font-size: 2em;
    text-align: left;
@@ -168,16 +171,16 @@ body {
    left: -10%;
    transform: rotate(270deg);
    transition: 0.7s ease;
-}
+} */
 
 .slider__img.active {
     width: 760px !important;
     height: 750px !important;
 }
-
+/* 
 .slider__img.active h1{
     display: none;
-}
+} */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap')
 
